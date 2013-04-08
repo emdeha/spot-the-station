@@ -11,6 +11,10 @@
     <DeviceOrientations>Portrait;Landscape</DeviceOrientations>
     <iOSStatusBarStyle>Default</iOSStatusBarStyle>
     <AndroidHardwareAcceleration>false</AndroidHardwareAcceleration>
+    <BundleVersion>1.0</BundleVersion>
+    <iOSDisplayName />
+    <iOSDeviceFamily>1;2</iOSDeviceFamily>
+    <AndroidVersionCode>1</AndroidVersionCode>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="App_Resources" />
@@ -32,6 +36,10 @@
     <Folder Include="App_Resources\Android\drawable-nodpi">
       <Platform>Android</Platform>
     </Folder>
+    <Folder Include="css" />
+    <Folder Include="img" />
+    <Folder Include="js" />
+    <Folder Include="js\vendor" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="App_Resources\iOS\icon.png" />
@@ -57,17 +65,6 @@
     <Resource Include="App_Resources\Android\drawable-nodpi\splashscreen.9.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
-    <Content Include="jquery-mobile\images\ajax-loader.gif" />
-    <Content Include="jquery-mobile\images\icons-18-black.png" />
-    <Content Include="jquery-mobile\images\icons-18-white.png" />
-    <Content Include="jquery-mobile\images\icons-36-black.png" />
-    <Content Include="jquery-mobile\images\icons-36-white.png" />
-    <Content Include="jquery-mobile\jquery-1.8.2.min.js" />
-    <Content Include="jquery-mobile\jquery.mobile-1.2.0.min.css" />
-    <Content Include="jquery-mobile\jquery.mobile-1.2.0.min.js" />
-    <Content Include="js\hello-world.js" />
-    <Content Include="styles\main.css" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
       <TargetName>cordova.js</TargetName>
@@ -76,6 +73,20 @@
       <Platform>Android</Platform>
       <TargetName>cordova.js</TargetName>
     </Content>
+    <Content Include="css\bootstrap-responsive.css" />
+    <Content Include="css\bootstrap-responsive.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\main.css" />
+    <Content Include="img\glyphicons-halflings-white.png" />
+    <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="index.html" />
+    <Content Include="js\completePage.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\plugins.js" />
+    <Content Include="js\vendor\bootstrap.js" />
+    <Content Include="js\vendor\bootstrap.min.js" />
+    <Content Include="js\vendor\jquery-1.9.1.min.js" />
+    <Content Include="js\vendor\modernizr-2.6.2-respond-1.1.0.min.js" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
