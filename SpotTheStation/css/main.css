@@ -8,12 +8,43 @@ body {
     padding-bottom: 40px;
 }
 
-#stationAboveButton { 
+button { 
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 5%;
     width: 90%;
+}
+
+#shareComment {
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 88%;
+}
+
+#shareButton {
+    position: absolute;
+    bottom: -200px;
+    width: 40%;
+    /*visibility: hidden;*/
+}
+
+#photoButton {
+    position: relative;
+    bottom: -200px;
+    left: 50%;
+    width: 40%;
+    /*visibility: hidden;*/
+}
+
+#main {
+    /*visibility: hidden;*/
+}
+
+#stationSeen {
+    position: absolute;
+    top: 10px;
+    /*visibility: visible;*/
 }
 
 #stationPosMap {
@@ -23,5 +54,8 @@ body {
     width: 89%;
     height: 300px;
     border: 2px solid;
-    background: url(img/earth-map.jpg) repeat;
+}
+
+h1 {
+   text-align: center;
 }

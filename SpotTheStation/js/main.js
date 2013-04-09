@@ -1,3 +1,38 @@
+// Momchi issues:
+// 1. Hide/show elements even when their css was 'hidden'
+// 2. Yes button expansion
+// 3. Multiline input
+// 4. Elements positioning? Bootstrap intro?
+
+$(document).ready(function() {
+    $('#stationSeen').hide();
+    $('#shareButton').hide();
+    $('#photoButton').hide();
+    $('#shareComment').hide();
+    $('#commentAccordion').accordion();
+});
+
+function onStationSeen() {
+    $('#main').hide();
+    $('#stationSeen').show();
+}
+
+function onYesButtonClicked() {   
+    $('#noButton').hide();
+    $('#shareButton').show();
+    $('#photoButton').show();
+    $('#shareComment').show();
+}
+
+
+
+
+
+
+
+
+
+/*
 $(document).ready(function(){
      doFunc();
 });
@@ -88,3 +123,4 @@ function issNowPosition()
     issNowMap.load();
     doFunc();
 }
+*/
