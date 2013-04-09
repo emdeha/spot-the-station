@@ -1,22 +1,27 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+body {
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
 
+#stationAboveButton { 
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5%;
+    width: 90%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#stationPosMap {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 89%;
+    height: 300px;
+    border: 2px solid;
+    background: url(img/earth-map.jpg) repeat;
+}
